@@ -12,3 +12,7 @@
  kubectl delete pod  hello-baby-5b6b899ff9-j7g89
  kubectl delete rc   xxx
  
+
+
+rc 复制控制器
+rs 副本集
