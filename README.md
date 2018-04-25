@@ -1,5 +1,13 @@
 #  docker基础
 
+配置后重启
+
+```
+systemctl daemon-reload   
+   
+systemctl restart docker  
+
+```
 
 ##  安装docker
 
