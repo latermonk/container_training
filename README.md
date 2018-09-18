@@ -67,7 +67,7 @@ curl https://releases.rancher.com/install-docker/17.03.sh | sh
 
 ####  yum安装执行版本的docker
 
-	
+
 	
 
 ##  配置docker
@@ -95,5 +95,43 @@ systemctl daemon-reload    &&  systemctl restart docker
 
 ```
 systemctl start docker &&  systemctl  enable docker 
+```
+
+
+
+
+
+##   局域网内部的安装方法
+
+
+
+#### 方法一：
+
+```
+cd /etc/yum.repo
+
+wget  https://download.docker.com/linux/centos/docker-ce.repo
+
+yum install docker-ce
+
+```
+
+
+
+
+
+
+
+#### 方法二：
+
+
+
+```
+Open  https://download.docker.com/linux/centos/7/x86_64/stable/Packages/
+
+wget   https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-18.03.1.ce-1.el7.centos.x86_64.rpm
+
+yum localinstall  docker-ce-18.03.1.ce-1.el7.centos.x86_64.rpm
+
 ```
 
