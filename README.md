@@ -121,7 +121,8 @@ yum install docker-ce
 简单方法：
 
 ```
-yum install docker-cewget -P /etc/yum.repo https://download.docker.com/linux/centos/docker-ce.repo
+
+wget -P /etc/yum.repo     https://download.docker.com/linux/centos/docker-ce.repo
 ls -l /etc/yum.repo
 
 yum install docker-ce
