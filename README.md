@@ -143,3 +143,19 @@ yum localinstall  docker-ce-18.03.1.ce-1.el7.centos.x86_64.rpm
 
 ```
 
+
+# Test
+
+
+RUN
+```
+docker run -d  abc
+
+```
+
+
+EXEC
+```
+docker exec -it  xxx  /bin/bash
+
+```
